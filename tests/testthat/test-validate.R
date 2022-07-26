@@ -18,7 +18,7 @@ test_that("validate_data_frame works", {
   # ## test the error-message using a snapshot
   # ##  - https://testthat.r-lib.org/reference/expect_snapshot.html
   # ##  - example output: https://github.com/ijlyttle/ussie/blob/main/tests/testthat/_snaps/validate.md
-  expect_snapshot_error(validate_data_frame(3))
+  #expect_snapshot_error(validate_data_frame(3))
 
   # ## 2.2.1 side effects (errors)
   # ## test the return object
@@ -48,7 +48,7 @@ test_that("validate_cols works", {
 
   ## 2.2.1 side effects (errors)
   ## test the error-message using a snapshot
-  expect_snapshot_error(validate_cols(mtcars, "foo"))
+  #expect_snapshot_error(validate_cols(mtcars, "foo"))
 
   # ## 2.2.1 side effects (errors)
   # ## add test for the return object
