@@ -2,9 +2,15 @@
 % Please edit documentation in R/seasons.R
 \name{uss_make_seasons_cumulative}
 \alias{uss_make_seasons_cumulative}
+\alias{uss_make_seasons_final}
 \title{Make season-based calculations}
 \usage{
 uss_make_seasons_cumulative(
+  data_teams_matches,
+  fn_points_per_win = uss_points_per_win
+)
+
+uss_make_seasons_final(
   data_teams_matches,
   fn_points_per_win = uss_points_per_win
 )
