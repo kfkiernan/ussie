@@ -37,3 +37,10 @@ The function `uss_get_matches()`
 italy_matches <- uss_get_matches('italy') |>
   glimpse()
 ```
+
+We can add filtering conditions.
+
+```{r}
+uss_get_matches("italy",visitor == 'Juventus') |>
+  dplyr::glimpse()
+```
